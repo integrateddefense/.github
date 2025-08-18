@@ -5,9 +5,12 @@ projects: "Indef Lab"
 body:
 - type: markdown
   attributes:
-    value: |
-      ## Epic Summary
-      < Describe the high level initiative this epic covers >
+    value: ## Epic Summary
+- type: textarea
+  id: EpicSummary
+  attributes:
+    label: Epic Summary
+    description: A brief summary of the epic
 
 - type: textarea
   id: goals
