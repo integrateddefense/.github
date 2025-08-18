@@ -1,0 +1,32 @@
+name: Story
+description: Track work associated with a single user story or requirement
+projects: "Indef Lab"
+body:
+- type: textarea
+  id: UserStory
+  attributes:
+    label: User Story
+    description: What is the User Story associated with this task?
+    placeholder: "As a <user, developer, admin>, I need to be able to <do something>."
+
+- type: textarea
+  id: Summary
+  attributes:
+    label: Summary
+    description: A brief summary of the work required to complete the story
+
+- type: textarea
+  id: AcceptanceCriteria
+  attributes:
+    label: Acceptance Criteria
+    description: What are the user stories or characteristics that define done for this Story?
+    placeholder: |
+      - AC1: <Characteristic>
+      - AC2: <User Story>
+
+- type: textarea
+  id: Epic
+  attributes:
+    label: Epic
+    description: What Epic is this Story part of?
+    placeholder: "Part of Epic: "
