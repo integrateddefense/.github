@@ -1,5 +1,6 @@
 name: Story
 description: Track work associated with a single user story or requirement
+title: "[Story] "
 projects: "Indef Lab"
 body:
 - type: textarea
@@ -21,8 +22,7 @@ body:
     label: Acceptance Criteria
     description: What are the user stories or characteristics that define done for this Story?
     placeholder: |
-      - AC1: <Characteristic>
-      - AC2: <User Story>
+      - [ ] AC1: <Characteristic or User Story>
 
 - type: textarea
   id: Epic
