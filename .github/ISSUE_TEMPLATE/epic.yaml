@@ -1,7 +1,7 @@
 name: Epic
 description: Track a major initiative (contains multiple stories/tasks)
 title: "[Epic] "
-project: "Indef Lab"
+projects: "Indef Lab"
 body:
 - type: markdown
   attributes:
