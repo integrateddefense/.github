@@ -3,9 +3,6 @@ description: Track a major initiative (contains multiple stories/tasks)
 title: "[Epic] "
 projects: "Indef Lab"
 body:
-- type: markdown
-  attributes:
-    value: \#\# Epic Summary
 - type: textarea
   id: EpicSummary
   attributes:
@@ -21,22 +18,28 @@ body:
       - Goal 1
       - Goal 2
 
-- type: markdown
+- type: textarea
+  id: AcceptanceCriteria
   attributes:
-    value: |
-      ## Acceptance Criteria
-      < Define the acceptance criteria for this Epic, creating the definition of done >
+    label: Acceptance Criteria
+    description: What are the user stories or characteristics that define done for this Epic?
+    placeholder: |
       - AC 1
       - AC 2
 
-- type: markdown
+- type: textarea
+  id: PreRequisites
   attributes:
-    value: |
-      ## Pre-Requisites
+    label: Pre-Requisite Epics
+    description: What Epics must be completed before this Epic can begin?
+    placeholder: |
       - [ ] Pre-Req Epic
 
-- type: markdown
+- type: textarea
+  id: Stories
   attributes:
-    value: |
-      ## Stories
+    label: Stories
+    description: What are the component stories that make up this Epic?
+    placeholder: |
+      May be empty if no stories exist currently
       - [ ] Story 1
