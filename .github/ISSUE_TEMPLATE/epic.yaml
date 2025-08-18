@@ -24,8 +24,8 @@ body:
     label: Acceptance Criteria
     description: What are the user stories or characteristics that define done for this Epic?
     placeholder: |
-      - AC 1
-      - AC 2
+      - AC1: <Characteristic>
+      - AC2: <User Story>
 
 - type: textarea
   id: PreRequisites
