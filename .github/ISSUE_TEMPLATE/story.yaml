@@ -29,4 +29,4 @@ body:
   attributes:
     label: Epic
     description: What Epic is this Story part of?
-    placeholder: "Part of Epic: "
+    placeholder: "Part of Epic: #"
