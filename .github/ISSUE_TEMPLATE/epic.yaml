@@ -5,7 +5,7 @@ projects: "Indef Lab"
 body:
 - type: markdown
   attributes:
-    value: ## Epic Summary
+    value: \#\# Epic Summary
 - type: textarea
   id: EpicSummary
   attributes:
