@@ -1,0 +1,39 @@
+name: Epic
+description: Track a major initiative (contains multiple stories/tasks)
+title: "[Epic] "
+project: "Indef Lab"
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## Epic Summary
+      < Describe the high level initiative this epic covers >
+
+- type: textarea
+  id: goals
+  attributes:
+    label: Goals
+    description: What does this Epic aim to achieve?
+    placeholder: |
+      - Goal 1
+      - Goal 2
+
+- type: markdown
+  attributes:
+    value: |
+      ## Acceptance Criteria
+      < Define the acceptance criteria for this Epic, creating the definition of done >
+      - AC 1
+      - AC 2
+
+- type: markdown
+  attributes:
+    value: |
+      ## Pre-Requisites
+      - [ ] Pre-Req Epic
+
+- type: markdown
+  attributes:
+    value: |
+      ## Stories
+      - [ ] Story 1
